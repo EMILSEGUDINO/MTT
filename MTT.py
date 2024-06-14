@@ -11,7 +11,7 @@ CounterFitConnection.init('localhost', 5000)
 sensor = DHT('11', 0)
 
 
-broker_address = "mosquitto.org"  
+broker_address = "test.mosquitto.org"  
 client = mqtt.Client("SensorSimulator")
 
 def on_connect(client, userdata, flags, rc):
